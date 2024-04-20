@@ -9,6 +9,13 @@
   font-family: "DM Sans", sans-serif;
 }
 
+#root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -45,5 +52,9 @@ body {
   .same-class {
     width: 50px;
     border-radius: 5px;
+  }
+
+  body {
+    padding: 0;
   }
 }
